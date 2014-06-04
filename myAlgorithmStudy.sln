@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort_big_datas", "sort_big_datas\sort_big_datas.vcxproj", "{437776C7-F1C7-4738-AFE1-C77D12731ED1}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "str_match", "str_match\str_match.vcxproj", "{FA8A6600-CB5D-45EA-AAF1-2A12EEEB3EDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trim_continuous_space", "trim_continuous_space\trim_continuous_space.vcxproj", "{1348AC51-238D-4DB8-A9DA-9E3EF73EDD4D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort_words_by_frequencies", "sort_words_by_frequencies\sort_words_by_frequencies.vcxproj", "{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}"
 EndProject
@@ -11,10 +17,18 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437776C7-F1C7-4738-AFE1-C77D12731ED1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{437776C7-F1C7-4738-AFE1-C77D12731ED1}.Debug|Win32.Build.0 = Debug|Win32
+		{437776C7-F1C7-4738-AFE1-C77D12731ED1}.Release|Win32.ActiveCfg = Release|Win32
+		{437776C7-F1C7-4738-AFE1-C77D12731ED1}.Release|Win32.Build.0 = Release|Win32
 		{FA8A6600-CB5D-45EA-AAF1-2A12EEEB3EDD}.Debug|Win32.ActiveCfg = Debug|Win32
 		{FA8A6600-CB5D-45EA-AAF1-2A12EEEB3EDD}.Debug|Win32.Build.0 = Debug|Win32
 		{FA8A6600-CB5D-45EA-AAF1-2A12EEEB3EDD}.Release|Win32.ActiveCfg = Release|Win32
 		{FA8A6600-CB5D-45EA-AAF1-2A12EEEB3EDD}.Release|Win32.Build.0 = Release|Win32
+		{1348AC51-238D-4DB8-A9DA-9E3EF73EDD4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1348AC51-238D-4DB8-A9DA-9E3EF73EDD4D}.Debug|Win32.Build.0 = Debug|Win32
+		{1348AC51-238D-4DB8-A9DA-9E3EF73EDD4D}.Release|Win32.ActiveCfg = Release|Win32
+		{1348AC51-238D-4DB8-A9DA-9E3EF73EDD4D}.Release|Win32.Build.0 = Release|Win32
 		{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}.Debug|Win32.ActiveCfg = Debug|Win32
 		{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}.Debug|Win32.Build.0 = Debug|Win32
 		{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}.Release|Win32.ActiveCfg = Release|Win32

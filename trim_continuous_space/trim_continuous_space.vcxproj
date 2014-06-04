@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}</ProjectGuid>
+    <ProjectGuid>{1348AC51-238D-4DB8-A9DA-9E3EF73EDD4D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>sort_words_by_frequencies</RootNamespace>
+    <RootNamespace>trim_continuous_space</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sort_words_by_frequencies.cpp" />
+    <ClCompile Include="trim_continuous_space.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
