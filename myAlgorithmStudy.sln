@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trim_continuous_space", "tr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort_words_by_frequencies", "sort_words_by_frequencies\sort_words_by_frequencies.vcxproj", "{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "select_nth", "select_nth\select_nth.vcxproj", "{8DA43D78-3C4A-46EA-A668-85647CBF2E71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}.Debug|Win32.Build.0 = Debug|Win32
 		{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}.Release|Win32.ActiveCfg = Release|Win32
 		{26E74DAB-8C01-4744-BF92-69C4AA60CEEB}.Release|Win32.Build.0 = Release|Win32
+		{8DA43D78-3C4A-46EA-A668-85647CBF2E71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DA43D78-3C4A-46EA-A668-85647CBF2E71}.Debug|Win32.Build.0 = Debug|Win32
+		{8DA43D78-3C4A-46EA-A668-85647CBF2E71}.Release|Win32.ActiveCfg = Release|Win32
+		{8DA43D78-3C4A-46EA-A668-85647CBF2E71}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
