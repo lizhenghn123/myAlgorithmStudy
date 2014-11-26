@@ -30,6 +30,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeTwoSortedLists", "leet
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveNthFromEnd", "leetcode\RemoveNthFromEnd\RemoveNthFromEnd.vcxproj", "{51170CBC-877C-4148-A535-0D3CFC647F85}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotateList", "leetcode\RotateList\RotateList.vcxproj", "{5D150A1C-4429-4A1E-89DC-9DA666E76DCF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveDuplicatesfromSortedList", "leetcode\RemoveDuplicatesfromSortedList\RemoveDuplicatesfromSortedList.vcxproj", "{9879192C-8001-4755-971F-24084CFDBADD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -76,6 +80,14 @@ Global
 		{51170CBC-877C-4148-A535-0D3CFC647F85}.Debug|Win32.Build.0 = Debug|Win32
 		{51170CBC-877C-4148-A535-0D3CFC647F85}.Release|Win32.ActiveCfg = Release|Win32
 		{51170CBC-877C-4148-A535-0D3CFC647F85}.Release|Win32.Build.0 = Release|Win32
+		{5D150A1C-4429-4A1E-89DC-9DA666E76DCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D150A1C-4429-4A1E-89DC-9DA666E76DCF}.Debug|Win32.Build.0 = Debug|Win32
+		{5D150A1C-4429-4A1E-89DC-9DA666E76DCF}.Release|Win32.ActiveCfg = Release|Win32
+		{5D150A1C-4429-4A1E-89DC-9DA666E76DCF}.Release|Win32.Build.0 = Release|Win32
+		{9879192C-8001-4755-971F-24084CFDBADD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9879192C-8001-4755-971F-24084CFDBADD}.Debug|Win32.Build.0 = Debug|Win32
+		{9879192C-8001-4755-971F-24084CFDBADD}.Release|Win32.ActiveCfg = Release|Win32
+		{9879192C-8001-4755-971F-24084CFDBADD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +99,7 @@ Global
 		{CFB0C742-B278-4937-A9CF-9F09429F0F0A} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{ECC50B4F-9C1D-4878-B090-BC4EA47EDDAF} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{51170CBC-877C-4148-A535-0D3CFC647F85} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
+		{5D150A1C-4429-4A1E-89DC-9DA666E76DCF} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
+		{9879192C-8001-4755-971F-24084CFDBADD} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 	EndGlobalSection
 EndGlobal
