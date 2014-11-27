@@ -34,6 +34,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotateList", "leetcode\Rota
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveDuplicatesfromSortedList", "leetcode\RemoveDuplicatesfromSortedList\RemoveDuplicatesfromSortedList.vcxproj", "{9879192C-8001-4755-971F-24084CFDBADD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedListCycle", "leetcode\LinkedListCycle\LinkedListCycle.vcxproj", "{7DDE5E43-B11F-4DC0-AE2D-7D72B283C9C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -88,6 +90,10 @@ Global
 		{9879192C-8001-4755-971F-24084CFDBADD}.Debug|Win32.Build.0 = Debug|Win32
 		{9879192C-8001-4755-971F-24084CFDBADD}.Release|Win32.ActiveCfg = Release|Win32
 		{9879192C-8001-4755-971F-24084CFDBADD}.Release|Win32.Build.0 = Release|Win32
+		{7DDE5E43-B11F-4DC0-AE2D-7D72B283C9C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DDE5E43-B11F-4DC0-AE2D-7D72B283C9C3}.Debug|Win32.Build.0 = Debug|Win32
+		{7DDE5E43-B11F-4DC0-AE2D-7D72B283C9C3}.Release|Win32.ActiveCfg = Release|Win32
+		{7DDE5E43-B11F-4DC0-AE2D-7D72B283C9C3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,5 +107,6 @@ Global
 		{51170CBC-877C-4148-A535-0D3CFC647F85} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{5D150A1C-4429-4A1E-89DC-9DA666E76DCF} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{9879192C-8001-4755-971F-24084CFDBADD} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
+		{7DDE5E43-B11F-4DC0-AE2D-7D72B283C9C3} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 	EndGlobalSection
 EndGlobal
