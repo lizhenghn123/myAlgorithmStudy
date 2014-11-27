@@ -64,25 +64,6 @@ ListNode* sortList_BubbleSort(ListNode *head)             //bubble sort, ok, but
 	return head;
 }
 
-ListNode* reverseList(ListNode *head)                //ok
-{
-	if (head == NULL || head->next == NULL)
-		return head;
-
-	ListNode *newhead = NULL;
-	ListNode *next;
-	while (head)
-	{
-		next = head->next;
-		head->next = newhead;
-		newhead = head;
-		head = next;
-	}
-	return newhead;
-}
-
-
-
 int main()
 {
 	if (0)

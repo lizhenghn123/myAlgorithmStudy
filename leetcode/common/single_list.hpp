@@ -52,6 +52,23 @@ size_t length(ListNode *head)
 	return len;
 }
 
+ListNode* reverseList(ListNode *head)
+{
+	if (head == NULL || head->next == NULL)
+		return head;
+
+	ListNode *newhead = NULL;
+	ListNode *next;
+	while (head)
+	{
+		next = head->next;
+		head->next = newhead;
+		newhead = head;
+		head = next;
+	}
+	return newhead;
+}
+
 void printList(ListNode* head)
 {
 	ListNode *p = head;
