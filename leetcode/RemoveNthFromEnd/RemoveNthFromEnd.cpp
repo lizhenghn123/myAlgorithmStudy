@@ -16,7 +16,6 @@
 * Given n will always be valid.
 * Try to do this in one pass.
 *
-*
 **********************************************************************************/
 #include <stdio.h>
 #include <time.h>
