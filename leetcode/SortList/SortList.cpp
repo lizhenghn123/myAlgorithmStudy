@@ -64,6 +64,89 @@ ListNode* sortList_BubbleSort(ListNode *head)             //bubble sort, ok, but
 	return head;
 }
 
+ListNode *mergeTwoSortedLists(ListNode* head1, ListNode* head2)
+{
+	ListNode *p1 = head1, *p2 = head2;
+
+	ListNode dummy(0);
+	dummy.next = p1;
+	ListNode *prev = &dummy;
+
+	while (p1 && p2)
+	{
+		if (p1->val < p2->val){
+			prev->next = p1;
+			p1 = p1->next;
+			prev = prev->next;
+		}
+		else
+		{
+			prev->next = p2;
+			p2 = p2->next;
+			prev = prev->next;
+			//prev->next = p1;
+		}
+	}
+	if (p2)
+		prev->next = p2;
+	if (p1)
+		prev->next = p1;
+
+	return dummy.next;
+}
+
+// 二分法快排
+ListNode* sortList(ListNode *head)
+{
+	if (head == NULL || head->next == NULL)
+		return head;
+
+	ListNode *fast = head;
+	ListNode *slow = head;
+
+	while (fast->next && fast->next->next)   //find list middle
+	{
+		slow = slow->next;
+		fast = fast->next->next;
+	}
+
+	ListNode *next = slow->next;
+	slow->next = NULL;
+
+	return mergeTwoSortedLists(sortList(head), sortList(next));
+}
+
+void test_sortList_QuickSort()
+{
+	{
+		int a[] = { 1, 2, 3, 4 };
+		ListNode *p1 = createList(a, sizeof(a) / sizeof(a[0]));
+		printList(p1);
+
+		ListNode *p = sortList(p1);
+		printList(p);
+		printf("-----------------------\n");
+	}
+	{
+		int a[] = { 3, 1, 4, 2 };
+		ListNode *p1 = createList(a, sizeof(a) / sizeof(a[0]));
+		printList(p1);
+
+		ListNode *p = sortList(p1);
+		printList(p);
+		printf("-----------------------\n");
+	}
+	{
+		int a[] = { 5, 2, 3, 1, 6, 2 };
+		ListNode *p1 = createList(a, sizeof(a) / sizeof(a[0]));
+		printList(p1);
+
+		ListNode *p = sortList(p1);
+		printList(p);
+		printf("-----------------------\n");
+	}
+}
+
 int main()
 {
 	if (0)
