@@ -46,6 +46,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseLinkedList", "leetco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseNodesInKGroup", "leetcode\ReverseNodesInKGroup\ReverseNodesInKGroup.vcxproj", "{77F6571F-FB55-415A-AB80-0778D8C6B9CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntersectionofTwoLinkedLists", "leetcode\IntersectionofTwoLinkedLists\IntersectionofTwoLinkedLists.vcxproj", "{A9AA054E-BF94-493A-9008-916A1E5C4456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -124,6 +126,10 @@ Global
 		{77F6571F-FB55-415A-AB80-0778D8C6B9CD}.Debug|Win32.Build.0 = Debug|Win32
 		{77F6571F-FB55-415A-AB80-0778D8C6B9CD}.Release|Win32.ActiveCfg = Release|Win32
 		{77F6571F-FB55-415A-AB80-0778D8C6B9CD}.Release|Win32.Build.0 = Release|Win32
+		{A9AA054E-BF94-493A-9008-916A1E5C4456}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9AA054E-BF94-493A-9008-916A1E5C4456}.Debug|Win32.Build.0 = Debug|Win32
+		{A9AA054E-BF94-493A-9008-916A1E5C4456}.Release|Win32.ActiveCfg = Release|Win32
+		{A9AA054E-BF94-493A-9008-916A1E5C4456}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,5 +149,6 @@ Global
 		{83B51653-A82B-463C-8FB1-1A4DE55BD6B8} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{032E02D8-0A53-44E5-A336-9AC4346D5087} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{77F6571F-FB55-415A-AB80-0778D8C6B9CD} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
+		{A9AA054E-BF94-493A-9008-916A1E5C4456} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 	EndGlobalSection
 EndGlobal
