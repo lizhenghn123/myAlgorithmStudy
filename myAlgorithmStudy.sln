@@ -56,6 +56,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveElement", "leetcode\R
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertionSortList", "leetcode\InsertionSortList\InsertionSortList.vcxproj", "{4078F59C-5F5D-4DE9-9186-3A3C59F0344D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "manyOfArraySort", "manyOfArraySort\manyOfArraySort.vcxproj", "{98D7C288-401D-4A3B-884C-9871CD723DC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -150,6 +152,10 @@ Global
 		{4078F59C-5F5D-4DE9-9186-3A3C59F0344D}.Debug|Win32.Build.0 = Debug|Win32
 		{4078F59C-5F5D-4DE9-9186-3A3C59F0344D}.Release|Win32.ActiveCfg = Release|Win32
 		{4078F59C-5F5D-4DE9-9186-3A3C59F0344D}.Release|Win32.Build.0 = Release|Win32
+		{98D7C288-401D-4A3B-884C-9871CD723DC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98D7C288-401D-4A3B-884C-9871CD723DC0}.Debug|Win32.Build.0 = Debug|Win32
+		{98D7C288-401D-4A3B-884C-9871CD723DC0}.Release|Win32.ActiveCfg = Release|Win32
+		{98D7C288-401D-4A3B-884C-9871CD723DC0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

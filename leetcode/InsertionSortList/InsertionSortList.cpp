@@ -1,9 +1,19 @@
+// Source : https://oj.leetcode.com/problems/insertion-sort-list/
+// Author : lizhenghn@gmail.com
+// Date   : 2014-11-29
+
+/**********************************************************************************
+*
+* Sort a linked list using insertion sort.
+*
+**********************************************************************************/
+
 #include <iostream>
 #include <stdio.h>
 #include <time.h>
 #include "../common/single_list.hpp"
 
-
+//链表排序，直接插入法
 ListNode* insertionSortList(ListNode *head)
 {
 	if (head == NULL)
