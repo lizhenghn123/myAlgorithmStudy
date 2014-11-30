@@ -21,6 +21,7 @@ int addBinaryChar(char a, char b, char c)
 	return a - '0' + b - '0' + c - '0';
 }
 
+//做虽做了，可真丑陋
 string addBinary(string a, string b)
 {
 	if (a.empty())
