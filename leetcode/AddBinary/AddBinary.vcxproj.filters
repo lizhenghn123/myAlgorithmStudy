@@ -11,7 +11,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RemoveDuplicates.cpp">
+    <ClCompile Include="AddBinary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
