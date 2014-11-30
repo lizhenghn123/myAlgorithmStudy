@@ -68,6 +68,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSortedArray", "leetcod
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddBinary", "leetcode\AddBinary\AddBinary.vcxproj", "{3F0717F6-29B5-4AF4-9830-A91DD08080A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string_algo", "leetcode\string_algo\string_algo.vcxproj", "{9835AD7E-104E-4FBA-88FA-E00B38C7FF42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -182,6 +184,10 @@ Global
 		{3F0717F6-29B5-4AF4-9830-A91DD08080A8}.Debug|Win32.Build.0 = Debug|Win32
 		{3F0717F6-29B5-4AF4-9830-A91DD08080A8}.Release|Win32.ActiveCfg = Release|Win32
 		{3F0717F6-29B5-4AF4-9830-A91DD08080A8}.Release|Win32.Build.0 = Release|Win32
+		{9835AD7E-104E-4FBA-88FA-E00B38C7FF42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9835AD7E-104E-4FBA-88FA-E00B38C7FF42}.Debug|Win32.Build.0 = Debug|Win32
+		{9835AD7E-104E-4FBA-88FA-E00B38C7FF42}.Release|Win32.ActiveCfg = Release|Win32
+		{9835AD7E-104E-4FBA-88FA-E00B38C7FF42}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,5 +217,6 @@ Global
 		{E51BCA8C-67CB-45D0-8C14-4BBB7E14FA18} = {980CE8D2-6569-4335-A207-E486A10194B5}
 		{5A9C8651-57F4-4922-B79B-95D879653FB1} = {7AAF4B8E-42A1-4282-BF4D-997EA6B8EF1D}
 		{3F0717F6-29B5-4AF4-9830-A91DD08080A8} = {980CE8D2-6569-4335-A207-E486A10194B5}
+		{9835AD7E-104E-4FBA-88FA-E00B38C7FF42} = {980CE8D2-6569-4335-A207-E486A10194B5}
 	EndGlobalSection
 EndGlobal
