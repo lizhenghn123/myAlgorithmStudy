@@ -82,6 +82,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tree", "tree", "{7FA78816-8
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeInorderTraversal", "leetcode\BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.vcxproj", "{6BAFC854-342A-4877-87C4-86CBD0E544AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreePreorderTraversal", "leetcode\BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.vcxproj", "{4DE650BD-2FBA-4343-8434-CD7C8DA7B496}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreePostorderTraversal", "leetcode\BinaryTreePostorderTraversal\BinaryTreePostorderTraversal.vcxproj", "{C57205F2-E6CD-4894-A3EF-E903062133C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeLevelOrderTraversal", "leetcode\BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.vcxproj", "{7A2603AE-0C2D-44D7-99D0-7D8C5F444B42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -212,6 +218,18 @@ Global
 		{6BAFC854-342A-4877-87C4-86CBD0E544AD}.Debug|Win32.Build.0 = Debug|Win32
 		{6BAFC854-342A-4877-87C4-86CBD0E544AD}.Release|Win32.ActiveCfg = Release|Win32
 		{6BAFC854-342A-4877-87C4-86CBD0E544AD}.Release|Win32.Build.0 = Release|Win32
+		{4DE650BD-2FBA-4343-8434-CD7C8DA7B496}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DE650BD-2FBA-4343-8434-CD7C8DA7B496}.Debug|Win32.Build.0 = Debug|Win32
+		{4DE650BD-2FBA-4343-8434-CD7C8DA7B496}.Release|Win32.ActiveCfg = Release|Win32
+		{4DE650BD-2FBA-4343-8434-CD7C8DA7B496}.Release|Win32.Build.0 = Release|Win32
+		{C57205F2-E6CD-4894-A3EF-E903062133C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C57205F2-E6CD-4894-A3EF-E903062133C4}.Debug|Win32.Build.0 = Debug|Win32
+		{C57205F2-E6CD-4894-A3EF-E903062133C4}.Release|Win32.ActiveCfg = Release|Win32
+		{C57205F2-E6CD-4894-A3EF-E903062133C4}.Release|Win32.Build.0 = Release|Win32
+		{7A2603AE-0C2D-44D7-99D0-7D8C5F444B42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A2603AE-0C2D-44D7-99D0-7D8C5F444B42}.Debug|Win32.Build.0 = Debug|Win32
+		{7A2603AE-0C2D-44D7-99D0-7D8C5F444B42}.Release|Win32.ActiveCfg = Release|Win32
+		{7A2603AE-0C2D-44D7-99D0-7D8C5F444B42}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,5 +266,8 @@ Global
 		{049EA676-F4C7-49CA-8C9F-4CA8A4EAE0ED} = {DC74C97C-A8F9-463C-8701-1B3FE5D891CF}
 		{7FA78816-8FF7-4CAE-85FF-1156D16BE0BC} = {6E2B00BA-D81E-498E-A917-C3EF2239441E}
 		{6BAFC854-342A-4877-87C4-86CBD0E544AD} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{4DE650BD-2FBA-4343-8434-CD7C8DA7B496} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{C57205F2-E6CD-4894-A3EF-E903062133C4} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{7A2603AE-0C2D-44D7-99D0-7D8C5F444B42} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
 	EndGlobalSection
 EndGlobal
