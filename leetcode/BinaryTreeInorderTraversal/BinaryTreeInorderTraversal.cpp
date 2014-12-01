@@ -38,20 +38,11 @@
 *
 * The above binary tree is serialized as "{1,2,3,#,#,4,#,#,5}".
 *
-*
 **********************************************************************************/
 #include <iostream>
 #include <vector>
+#include "../common/binary_tree.hpp"
 using namespace std;
-
- //Definition for binary tree
- struct TreeNode 
- {
-     int val;
-     TreeNode *left;
-     TreeNode *right;
-     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- };
 
  void inorderTraversal(TreeNode *root, vector<int>& orders)
  {
