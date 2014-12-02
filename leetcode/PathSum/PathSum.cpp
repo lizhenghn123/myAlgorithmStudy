@@ -51,30 +51,6 @@ void printTree_level_order(TreeNode *root)
 	}
 	cout << endl;
 }
-TreeNode* createTree(int a[], int n)
-{
-	if (n <= 0) return NULL;
-
-	TreeNode **tree = new TreeNode*[n];
-
-	for (int i = 0; i<n; i++) {
-		if (a[i] == 0){
-			tree[i] = NULL;
-			continue;
-		}
-		tree[i] = new TreeNode(a[i]);
-	}
-	int pos = 1;
-	for (int i = 0; i<n && pos<n; i++) {
-		if (tree[i]){
-			tree[i]->left = tree[pos++];
-			if (pos<n){
-				tree[i]->right = tree[pos++];
-			}
-		}
-	}
-	return tree[0];
-}
 
 bool hasPathSum(TreeNode *root, const int expectSum, int& currentSum)
 {

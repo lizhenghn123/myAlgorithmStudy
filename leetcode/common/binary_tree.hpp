@@ -16,6 +16,36 @@ struct TreeNode
 
 //TODO 关于二叉树的都要写非递归的算法
 
+// 根据层次遍历的序列逆向构造一颗二叉树, 当某一节点为空时设置其值为null
+TreeNode* createTree(int a[], int n, int null = 0)
+{
+	if (n <= 0) return NULL;
+
+	TreeNode **tree = new TreeNode*[n];
+
+	for (int i = 0; i < n; i++)
+	{
+		if (a[i] == null)
+			tree[i] = NULL;
+		else
+			tree[i] = new TreeNode(a[i]);
+	}
+	int pos = 1;
+	for (int i = 0; i < n && pos < n; i++) 
+	{
+		if (tree[i])
+		{
+			tree[i]->left = tree[pos++];
+			if (pos < n)
+			{
+				tree[i]->right = tree[pos++];
+			}
+		}
+	}
+	return tree[0];
+}
+
+// 求树的高度
 int treeDepth(TreeNode *root)
 {
 	if (root == NULL)
@@ -49,7 +79,6 @@ vector<int> preorderTraversal(TreeNode *root)
 	preorderTraversal(root, orders);
 	return orders;
 }
-
 
 // 中序遍历
 void inorderTraversal(TreeNode *root, vector<int>& orders)

@@ -58,6 +58,7 @@ vector<TreeNode*> preorderTraversalNodes(TreeNode *root)
 	return orders;
 }
 
+// 先序遍历所有节点，然后将每个节点的左子树置NULL，并修改其右子树指向
 void flatten(TreeNode *root) 
 {
 	if (root == NULL/* || root->left == NULL || root->right == NULL*/) //这都不行
@@ -80,30 +81,7 @@ void flatten(TreeNode *root)
 		}
 	}
 }
-TreeNode* createTree(int a[], int n)
-{
-	if (n <= 0) return NULL;
 
-	TreeNode **tree = new TreeNode*[n];
-
-	for (int i = 0; i<n; i++) {
-		if (a[i] == 0){
-			tree[i] = NULL;
-			continue;
-		}
-		tree[i] = new TreeNode(a[i]);
-	}
-	int pos = 1;
-	for (int i = 0; i<n && pos<n; i++) {
-		if (tree[i]){
-			tree[i]->left = tree[pos++];
-			if (pos<n){
-				tree[i]->right = tree[pos++];
-			}
-		}
-	}
-	return tree[0];
-}
 int main()
 {
 	{
