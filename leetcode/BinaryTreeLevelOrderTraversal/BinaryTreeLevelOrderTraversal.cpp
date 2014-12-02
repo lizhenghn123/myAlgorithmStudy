@@ -162,10 +162,10 @@ vector<vector<int> > levelOrderBottom(TreeNode *root)
 
 void printVector2D(const vector<vector<int> >& vec)
 {
-	for (int i = 0; i < vec.size(); ++i)
+	for (size_t i = 0; i < vec.size(); ++i)
 	{
 		const vector<int>& v = vec[i];
-		for (int j = 0; j < v.size(); ++j)
+		for (size_t j = 0; j < v.size(); ++j)
 		{
 			cout << v[j] << ",";
 		}

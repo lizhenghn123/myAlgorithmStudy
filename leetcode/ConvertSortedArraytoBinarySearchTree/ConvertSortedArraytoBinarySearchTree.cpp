@@ -13,25 +13,6 @@
 #include "../common/binary_tree.hpp"
 using namespace std;
 
-TreeNode* sortedListToBST(const std::vector<int>& vec, int start, int end)
-{
-	if (start > end || vec.empty())
-		return NULL;
-
-	int mid = start + (end - start) / 2;
-
-	TreeNode *node = new TreeNode(vec[mid]);
-	node->left = sortedListToBST(vec, start, mid - 1);
-	node->right = sortedListToBST(vec, mid + 1, end);
-
-	return node;
-}
-
-TreeNode *sortedArrayToBST(vector<int> &num)
-{
-	return sortedListToBST(num, 0, num.size() - 1);
-}
-
 int main()
 {
 	{

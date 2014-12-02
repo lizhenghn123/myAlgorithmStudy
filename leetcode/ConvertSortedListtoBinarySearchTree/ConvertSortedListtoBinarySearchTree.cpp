@@ -14,20 +14,6 @@
 using namespace std;
 
 //空间和时间都为O(n)
-TreeNode* sortedListToBST(const std::vector<int>& vec, int start, int end)
-{
-	if (start > end || vec.empty())
-		return NULL;
-
-	int mid = start + (end - start) / 2;
-
-	TreeNode *node = new TreeNode(vec[mid]);
-	node->left = sortedListToBST(vec, start, mid - 1);
-	node->right = sortedListToBST(vec, mid + 1, end);
-
-	return node;
-}
-
 TreeNode* sortedListToBST(ListNode *head)
 {
 	if (head == NULL)

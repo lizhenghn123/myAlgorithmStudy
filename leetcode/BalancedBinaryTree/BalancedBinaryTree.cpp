@@ -13,19 +13,6 @@
 #include "../common/binary_tree.hpp"
 using namespace std;
 
-int treeDepth(TreeNode *root)
-{
-	if (root == NULL)
-		return 0;
-	else if (root->left == NULL && root->right == NULL)
-		return 1;
-
-	int leftDepth = treeDepth(root->left);
-	int rightDepth = treeDepth(root->right);
-
-	return (leftDepth > rightDepth ? leftDepth : rightDepth) + 1;
-}
-
 bool isBalanced(TreeNode *root)
 {
 	if (root == NULL || (root->left == NULL && root->right == NULL))

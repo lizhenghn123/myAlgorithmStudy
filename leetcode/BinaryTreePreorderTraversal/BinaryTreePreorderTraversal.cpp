@@ -25,27 +25,6 @@
 #include "../common/binary_tree.hpp"
 using namespace std;
 
-
-void preorderTraversal(TreeNode *root, vector<int>& orders)
-{
-	if (root == NULL)
-		return;
-
-	orders.push_back(root->val);
-
-	if (root->left)
-		preorderTraversal(root->left, orders);
-	if (root->right)
-		preorderTraversal(root->right, orders);
-}
-
-vector<int> preorderTraversal(TreeNode *root)
-{
-	vector<int> orders;
-	preorderTraversal(root, orders);
-	return orders;
-}
-
 int main()
 {
 	system("pause");

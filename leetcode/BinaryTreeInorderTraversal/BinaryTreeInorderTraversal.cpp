@@ -44,27 +44,6 @@
 #include "../common/binary_tree.hpp"
 using namespace std;
 
- void inorderTraversal(TreeNode *root, vector<int>& orders)
- {
-	 if (root == NULL)
-		 return;
-
-	 if (root->left)
-		 inorderTraversal(root->left, orders);
-
-	 orders.push_back(root->val);
-
-	 if (root->right)
-		 inorderTraversal(root->right, orders);
- }
-
- vector<int> inorderTraversal(TreeNode *root)
- {
-	 vector<int> orders;
-	 inorderTraversal(root, orders);
-	 return orders;
- }
-
  //TODO 再写一遍非递归的实现
 
  int main()
