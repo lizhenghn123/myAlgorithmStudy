@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidateBinarySearchTree", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BalancedBinaryTree", "leetcode\BalancedBinaryTree\BalancedBinaryTree.vcxproj", "{C8C4EA21-0AEC-4045-A6CC-6C903154121F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlattenBinaryTreetoLinkedList", "leetcode\FlattenBinaryTreetoLinkedList\FlattenBinaryTreetoLinkedList.vcxproj", "{03A4054D-E25B-45E9-A516-ECC0AD27FD53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -289,6 +291,10 @@ Global
 		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Debug|Win32.Build.0 = Debug|Win32
 		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Release|Win32.ActiveCfg = Release|Win32
 		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Release|Win32.Build.0 = Release|Win32
+		{03A4054D-E25B-45E9-A516-ECC0AD27FD53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03A4054D-E25B-45E9-A516-ECC0AD27FD53}.Debug|Win32.Build.0 = Debug|Win32
+		{03A4054D-E25B-45E9-A516-ECC0AD27FD53}.Release|Win32.ActiveCfg = Release|Win32
+		{03A4054D-E25B-45E9-A516-ECC0AD27FD53}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -338,5 +344,6 @@ Global
 		{756D0AF9-5404-43C6-90A7-C72CE4705435} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
 		{6955A712-AF7E-4566-88D4-5053F94CF6C2} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
 		{C8C4EA21-0AEC-4045-A6CC-6C903154121F} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{03A4054D-E25B-45E9-A516-ECC0AD27FD53} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
 	EndGlobalSection
 EndGlobal
