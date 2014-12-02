@@ -103,6 +103,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxOrMinDepthofBinaryTree",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvertSortedListtoBinarySearchTree", "leetcode\ConvertSortedListtoBinarySearchTree\ConvertSortedListtoBinarySearchTree.vcxproj", "{2E3422E9-72DD-4832-A3C1-5E6E8A7A3BF9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathSum", "leetcode\PathSum\PathSum.vcxproj", "{F30EF244-4786-47D7-AFAF-916470C5D6E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvertSortedArraytoBinarySearchTree", "leetcode\ConvertSortedArraytoBinarySearchTree\ConvertSortedArraytoBinarySearchTree.vcxproj", "{756D0AF9-5404-43C6-90A7-C72CE4705435}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidateBinarySearchTree", "leetcode\ValidateBinarySearchTree\ValidateBinarySearchTree.vcxproj", "{6955A712-AF7E-4566-88D4-5053F94CF6C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BalancedBinaryTree", "leetcode\BalancedBinaryTree\BalancedBinaryTree.vcxproj", "{C8C4EA21-0AEC-4045-A6CC-6C903154121F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -265,6 +273,22 @@ Global
 		{2E3422E9-72DD-4832-A3C1-5E6E8A7A3BF9}.Debug|Win32.Build.0 = Debug|Win32
 		{2E3422E9-72DD-4832-A3C1-5E6E8A7A3BF9}.Release|Win32.ActiveCfg = Release|Win32
 		{2E3422E9-72DD-4832-A3C1-5E6E8A7A3BF9}.Release|Win32.Build.0 = Release|Win32
+		{F30EF244-4786-47D7-AFAF-916470C5D6E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F30EF244-4786-47D7-AFAF-916470C5D6E1}.Debug|Win32.Build.0 = Debug|Win32
+		{F30EF244-4786-47D7-AFAF-916470C5D6E1}.Release|Win32.ActiveCfg = Release|Win32
+		{F30EF244-4786-47D7-AFAF-916470C5D6E1}.Release|Win32.Build.0 = Release|Win32
+		{756D0AF9-5404-43C6-90A7-C72CE4705435}.Debug|Win32.ActiveCfg = Debug|Win32
+		{756D0AF9-5404-43C6-90A7-C72CE4705435}.Debug|Win32.Build.0 = Debug|Win32
+		{756D0AF9-5404-43C6-90A7-C72CE4705435}.Release|Win32.ActiveCfg = Release|Win32
+		{756D0AF9-5404-43C6-90A7-C72CE4705435}.Release|Win32.Build.0 = Release|Win32
+		{6955A712-AF7E-4566-88D4-5053F94CF6C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6955A712-AF7E-4566-88D4-5053F94CF6C2}.Debug|Win32.Build.0 = Debug|Win32
+		{6955A712-AF7E-4566-88D4-5053F94CF6C2}.Release|Win32.ActiveCfg = Release|Win32
+		{6955A712-AF7E-4566-88D4-5053F94CF6C2}.Release|Win32.Build.0 = Release|Win32
+		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Debug|Win32.Build.0 = Debug|Win32
+		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Release|Win32.ActiveCfg = Release|Win32
+		{C8C4EA21-0AEC-4045-A6CC-6C903154121F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,5 +334,9 @@ Global
 		{48E636E1-DB52-4BDB-B3CC-21F642DD8D57} = {4FC75A9C-9BB0-485D-B448-8C21451A2873}
 		{8F8AE4F9-031D-4672-BFFD-CE9C6D67B03C} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
 		{2E3422E9-72DD-4832-A3C1-5E6E8A7A3BF9} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{F30EF244-4786-47D7-AFAF-916470C5D6E1} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{756D0AF9-5404-43C6-90A7-C72CE4705435} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{6955A712-AF7E-4566-88D4-5053F94CF6C2} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{C8C4EA21-0AEC-4045-A6CC-6C903154121F} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
 	EndGlobalSection
 EndGlobal

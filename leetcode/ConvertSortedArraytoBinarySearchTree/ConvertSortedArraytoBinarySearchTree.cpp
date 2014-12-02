@@ -1,6 +1,6 @@
-// Source : https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+// Source : https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 // Author : lizhenghn@gmail.com
-// Date   : 2014-12-01
+// Date   : 2014-12-02
 
 /**********************************************************************************
 *
@@ -13,7 +13,6 @@
 #include "../common/binary_tree.hpp"
 using namespace std;
 
-//空间和时间都为O(n)
 TreeNode* sortedListToBST(const std::vector<int>& vec, int start, int end)
 {
 	if (start > end || vec.empty())
@@ -28,35 +27,28 @@ TreeNode* sortedListToBST(const std::vector<int>& vec, int start, int end)
 	return node;
 }
 
-TreeNode* sortedListToBST(ListNode *head)
+TreeNode *sortedArrayToBST(vector<int> &num)
 {
-	if (head == NULL)
-		return NULL;
-
-	vector<int> vec;
-	ListNode *p = head;
-	while (p)
-	{
-		vec.push_back(p->val);
-		p = p->next;
-	}
-
-	return sortedListToBST(vec, 0, vec.size() - 1);
+	return sortedListToBST(num, 0, num.size() - 1);
 }
 
 int main()
 {
 	{
-		int arr[] = { -1, 0, 1, 2 };
-		ListNode *root = createList(arr, 4);
-		TreeNode *node = sortedListToBST(root);
-		cout << "---------\n";
+		vector<int> v = {};
+		TreeNode *root = sortedArrayToBST(v);
 	}
 	{
-		int arr[] = { 1, 3 };
-		ListNode *root = createList(arr, 2);
-		TreeNode *node = sortedListToBST(root);
-		cout << "---------\n";
+		vector<int> v = { 1 };
+		TreeNode *root = sortedArrayToBST(v);
+	}
+	{
+		vector<int> v = { 1, 3 };
+		TreeNode *root = sortedArrayToBST(v);
+	}
+	{
+		vector<int> v = { -1, 0, 1, 2 };
+		TreeNode *root = sortedArrayToBST(v);
 	}
 
 	system("pause");
