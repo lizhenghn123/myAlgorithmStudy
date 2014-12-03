@@ -125,7 +125,6 @@ void printVector2D(const vector<vector<int> >& vec2d)
 
 int main()
 {
-	srand(time(0));
 	{
 		int a[] = { 1, 2, 3, 4, 5, 0, 6, 0, 0, 7, 8, 5, 0 };
 		TreeNode* p = createTree(a, sizeof(a) / sizeof(int));
@@ -149,8 +148,6 @@ int main()
 		vector<vector<int> > vec = pathSum(p, 22);
 		printVector2D(vec);
 	}
-
-
 
 	cout << "\n";
 	system("pause");
