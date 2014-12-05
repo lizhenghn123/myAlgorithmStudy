@@ -26,6 +26,14 @@
 using namespace std;
 
 
+
+vector<int> postorderTraversalNoRecursion(TreeNode *root)
+{
+	vector<int> orders;
+	postorderTraversalNoRecursion(root, orders);
+	return orders;
+}
+
 int main()
 {
 	system("pause");

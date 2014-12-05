@@ -60,6 +60,24 @@ int treeDepth(TreeNode *root)
 }
 
 // 前序遍历
+void preorderTraversalNoRecursion(TreeNode *root, vector<int>& orders)
+{
+	if (root == NULL)
+		return;
+
+	stack<TreeNode*> stack;
+	stack.push(root);
+	while (!stack.empty())
+	{
+		TreeNode *root = stack.top(); stack.pop();
+		orders.push_back(root->val);
+		if (root->right)
+			stack.push(root->right);
+		if (root->left)
+			stack.push(root->left);
+	}
+}
+
 void preorderTraversal(TreeNode *root, vector<int>& orders)
 {
 	if (root == NULL)
@@ -81,6 +99,32 @@ vector<int> preorderTraversal(TreeNode *root)
 }
 
 // 中序遍历
+void inorderTraversalNoRecursion(TreeNode *root, vector<int>& orders)
+{
+	if (root == NULL)
+		return;
+
+	stack<TreeNode*> stack;
+	TreeNode *node = root;
+	while (!stack.empty() || node != NULL)
+	{
+		if (node != NULL)
+		{
+			stack.push(node);
+			node = node->left;
+		}
+		else
+		{
+			if (stack.size()>0) 
+			{
+				node = stack.top();    stack.pop();
+				orders.push_back(node->val);
+				node = node->right;
+			}
+		}
+	}
+}
+
 void inorderTraversal(TreeNode *root, vector<int>& orders)
 {
 	if (root == NULL)
@@ -103,6 +147,40 @@ vector<int> inorderTraversal(TreeNode *root)
 }
 
 // 后序遍历
+void postorderTraversalNoRecursion(TreeNode *root, vector<int>& orders)
+{
+	if (root == NULL)
+		return;
+
+	stack<TreeNode*> stack;
+
+	TreeNode *node = root;
+	TreeNode *lastVisitNode = NULL;
+	while (!stack.empty() || node != NULL)
+	{
+		if (node != NULL)
+		{
+			stack.push(node);
+			node = node->left;
+		}
+		else
+		{
+			TreeNode *n = stack.top();
+			// left way is finsised, keep going to the right way
+			if (n->right != NULL && n->right != lastVisitNode)
+			{
+				node = n->right;
+			}
+			else  // both left and right has been accessed.
+			{
+				stack.pop();
+				orders.push_back(n->val);
+				lastVisitNode = n;
+			}
+		}
+	}
+}
+
 void postorderTraversal(TreeNode *root, vector<int>& orders)
 {
 	if (root == NULL)

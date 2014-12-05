@@ -25,6 +25,14 @@
 #include "../common/binary_tree.hpp"
 using namespace std;
 
+// ∑«µ›πÈ«∞–Ú±È¿˙
+vector<int> preorderTraversalNoRecursion(TreeNode *root)
+{
+	vector<int> orders;
+	preorderTraversalNoRecursion(root, orders);
+	return orders;
+}
+
 int main()
 {
 	system("pause");
