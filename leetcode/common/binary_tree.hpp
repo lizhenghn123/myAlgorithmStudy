@@ -59,6 +59,39 @@ int treeDepth(TreeNode *root)
 	return (leftDepth > rightDepth ? leftDepth : rightDepth) + 1;
 }
 
+// 二叉树节点总数
+int treeNum(TreeNode *root)
+{
+	if (root == NULL)
+		return 0;
+
+	return treeNum(root->left) + treeNum(root->right) + 1;
+}
+
+// 二叉树叶节点总数
+int leafNodeNum(TreeNode *root)
+{
+	if (root == NULL)
+		return 0;
+	else if (root->left == NULL && root->right == NULL)
+		return 1;
+
+	return leafNodeNum(root->left) + leafNodeNum(root->right);
+}
+
+// 二叉树第K层节点总数
+int kthLevelNodeNum(TreeNode *root, int k)
+{
+	if (root == NULL || k < 1)
+		return 0;
+	else if (k == 1)
+		return 1;
+
+	int numLeft = kthLevelNodeNum(root->left, k - 1);   // 左子树中k-1层的节点个数
+	int numRight = kthLevelNodeNum(root->right, k - 1); // 右子树中k-1层的节点个数
+	return numLeft + numRight;
+}
+
 // 前序遍历
 void preorderTraversalNoRecursion(TreeNode *root, vector<int>& orders)
 {
