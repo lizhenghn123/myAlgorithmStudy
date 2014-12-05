@@ -127,6 +127,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyListwithRandomPointer",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeMaximumPathSum", "leetcode\BinaryTreeMaximumPathSum\BinaryTreeMaximumPathSum.vcxproj", "{031B99D7-960C-4B87-878F-96E5CF063C55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructBinaryTreefromPreorderandInorderTraversal", "leetcode\ConstructBinaryTreefromPreorderandInorderTraversal\ConstructBinaryTreefromPreorderandInorderTraversal.vcxproj", "{78D67FF3-DB6F-4B0C-B83B-715028C25674}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructBinaryTreefromInorderandPostorderTraversal", "leetcode\ConstructBinaryTreefromInorderandPostorderTraversal\ConstructBinaryTreefromInorderandPostorderTraversal.vcxproj", "{F1F59D98-9260-4DE3-81F1-FDFA7298EA25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DivideTwoIntegers", "leetcode\DivideTwoIntegers\DivideTwoIntegers.vcxproj", "{2F9D3B2C-669A-4D72-9200-C0050F44D200}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergekSortedLists", "leetcode\MergekSortedLists\MergekSortedLists.vcxproj", "{E3E5349B-9865-4195-96E7-D4B62142A236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -337,6 +345,22 @@ Global
 		{031B99D7-960C-4B87-878F-96E5CF063C55}.Debug|Win32.Build.0 = Debug|Win32
 		{031B99D7-960C-4B87-878F-96E5CF063C55}.Release|Win32.ActiveCfg = Release|Win32
 		{031B99D7-960C-4B87-878F-96E5CF063C55}.Release|Win32.Build.0 = Release|Win32
+		{78D67FF3-DB6F-4B0C-B83B-715028C25674}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78D67FF3-DB6F-4B0C-B83B-715028C25674}.Debug|Win32.Build.0 = Debug|Win32
+		{78D67FF3-DB6F-4B0C-B83B-715028C25674}.Release|Win32.ActiveCfg = Release|Win32
+		{78D67FF3-DB6F-4B0C-B83B-715028C25674}.Release|Win32.Build.0 = Release|Win32
+		{F1F59D98-9260-4DE3-81F1-FDFA7298EA25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1F59D98-9260-4DE3-81F1-FDFA7298EA25}.Debug|Win32.Build.0 = Debug|Win32
+		{F1F59D98-9260-4DE3-81F1-FDFA7298EA25}.Release|Win32.ActiveCfg = Release|Win32
+		{F1F59D98-9260-4DE3-81F1-FDFA7298EA25}.Release|Win32.Build.0 = Release|Win32
+		{2F9D3B2C-669A-4D72-9200-C0050F44D200}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F9D3B2C-669A-4D72-9200-C0050F44D200}.Debug|Win32.Build.0 = Debug|Win32
+		{2F9D3B2C-669A-4D72-9200-C0050F44D200}.Release|Win32.ActiveCfg = Release|Win32
+		{2F9D3B2C-669A-4D72-9200-C0050F44D200}.Release|Win32.Build.0 = Release|Win32
+		{E3E5349B-9865-4195-96E7-D4B62142A236}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3E5349B-9865-4195-96E7-D4B62142A236}.Debug|Win32.Build.0 = Debug|Win32
+		{E3E5349B-9865-4195-96E7-D4B62142A236}.Release|Win32.ActiveCfg = Release|Win32
+		{E3E5349B-9865-4195-96E7-D4B62142A236}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -394,5 +418,9 @@ Global
 		{B76B9324-4A8B-4D74-8843-ECD1D184A081} = {980CE8D2-6569-4335-A207-E486A10194B5}
 		{77BB8D71-5F17-4FDC-AABE-EBF2E75C5057} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 		{031B99D7-960C-4B87-878F-96E5CF063C55} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{78D67FF3-DB6F-4B0C-B83B-715028C25674} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{F1F59D98-9260-4DE3-81F1-FDFA7298EA25} = {7FA78816-8FF7-4CAE-85FF-1156D16BE0BC}
+		{2F9D3B2C-669A-4D72-9200-C0050F44D200} = {DC74C97C-A8F9-463C-8701-1B3FE5D891CF}
+		{E3E5349B-9865-4195-96E7-D4B62142A236} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
 	EndGlobalSection
 EndGlobal
