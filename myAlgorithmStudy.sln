@@ -147,6 +147,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseWordsInAString", "le
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SearchinRotatedSortedArray", "leetcode\SearchinRotatedSortedArray\SearchinRotatedSortedArray.vcxproj", "{CCA4D878-9D84-4D4A-9F8B-79CE9690211F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PascalTriangle", "leetcode\PascalTriangle\PascalTriangle.vcxproj", "{0D0DE732-DBAF-4092-B7D6-E786F6BC8CF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -397,6 +399,10 @@ Global
 		{CCA4D878-9D84-4D4A-9F8B-79CE9690211F}.Debug|Win32.Build.0 = Debug|Win32
 		{CCA4D878-9D84-4D4A-9F8B-79CE9690211F}.Release|Win32.ActiveCfg = Release|Win32
 		{CCA4D878-9D84-4D4A-9F8B-79CE9690211F}.Release|Win32.Build.0 = Release|Win32
+		{0D0DE732-DBAF-4092-B7D6-E786F6BC8CF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D0DE732-DBAF-4092-B7D6-E786F6BC8CF1}.Debug|Win32.Build.0 = Debug|Win32
+		{0D0DE732-DBAF-4092-B7D6-E786F6BC8CF1}.Release|Win32.ActiveCfg = Release|Win32
+		{0D0DE732-DBAF-4092-B7D6-E786F6BC8CF1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -464,5 +470,6 @@ Global
 		{AA0BE573-FE6C-47E3-A72B-185C76D5C206} = {DC74C97C-A8F9-463C-8701-1B3FE5D891CF}
 		{6FFE202F-C4A4-4B6D-898A-931149E2C79C} = {980CE8D2-6569-4335-A207-E486A10194B5}
 		{CCA4D878-9D84-4D4A-9F8B-79CE9690211F} = {7AAF4B8E-42A1-4282-BF4D-997EA6B8EF1D}
+		{0D0DE732-DBAF-4092-B7D6-E786F6BC8CF1} = {7AAF4B8E-42A1-4282-BF4D-997EA6B8EF1D}
 	EndGlobalSection
 EndGlobal
