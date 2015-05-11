@@ -52,6 +52,29 @@ size_t length(ListNode *head)
 	return len;
 }
 
+ListNode* removeElements(ListNode* head, int val)
+{
+	ListNode dummy(0);
+	dummy.next = head;
+
+	ListNode *d = &dummy;
+	ListNode *p = head;
+
+	while (p)
+	{
+		while (p && p->val == val)
+		{
+			p = p->next;
+		}
+		d->next = p;
+		d = d->next;
+		p = p ? p->next : p;
+
+	}
+
+	return dummy.next;
+}
+
 ListNode* reverseList(ListNode *head)
 {
 	if (head == NULL || head->next == NULL)
