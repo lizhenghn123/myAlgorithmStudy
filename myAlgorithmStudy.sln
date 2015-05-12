@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HappyNumber", "leetcode\Hap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveLinkedListElements", "leetcode\RemoveLinkedListElements\RemoveLinkedListElements.vcxproj", "{06592162-536E-44D8-9C59-D416B753A3F5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindMinimuminRotatedSortedArray", "leetcode\FindMinimuminRotatedSortedArray\FindMinimuminRotatedSortedArray.vcxproj", "{0E877BEC-2C9F-4372-AD09-9B69598EA238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -427,6 +429,10 @@ Global
 		{06592162-536E-44D8-9C59-D416B753A3F5}.Debug|Win32.Build.0 = Debug|Win32
 		{06592162-536E-44D8-9C59-D416B753A3F5}.Release|Win32.ActiveCfg = Release|Win32
 		{06592162-536E-44D8-9C59-D416B753A3F5}.Release|Win32.Build.0 = Release|Win32
+		{0E877BEC-2C9F-4372-AD09-9B69598EA238}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E877BEC-2C9F-4372-AD09-9B69598EA238}.Debug|Win32.Build.0 = Debug|Win32
+		{0E877BEC-2C9F-4372-AD09-9B69598EA238}.Release|Win32.ActiveCfg = Release|Win32
+		{0E877BEC-2C9F-4372-AD09-9B69598EA238}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -499,5 +505,6 @@ Global
 		{C6F25B9C-9072-4618-A5FD-6FA42AFA2765} = {DC74C97C-A8F9-463C-8701-1B3FE5D891CF}
 		{567DF62D-7D10-4C2A-98C5-B0CD68E75361} = {DC74C97C-A8F9-463C-8701-1B3FE5D891CF}
 		{06592162-536E-44D8-9C59-D416B753A3F5} = {DBC8BA7C-FD32-4CC9-9BE4-6D67CB755087}
+		{0E877BEC-2C9F-4372-AD09-9B69598EA238} = {7AAF4B8E-42A1-4282-BF4D-997EA6B8EF1D}
 	EndGlobalSection
 EndGlobal
