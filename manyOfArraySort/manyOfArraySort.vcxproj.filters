@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="manyOfArraySort.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StopWatch.h" />
+  </ItemGroup>
 </Project>

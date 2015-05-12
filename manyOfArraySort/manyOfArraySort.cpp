@@ -2,6 +2,8 @@
 #include <vector>
 #include <stdio.h>
 #include <time.h>
+#include <algorithm>
+#include "StopWatch.h"
 using namespace std;
 
 void SelectSort(int a[], int n);            //ºÚµ•—°‘Ò≈≈–Ú
@@ -32,8 +34,9 @@ int main()
 {
 	srand(time(NULL));
 
-	const int size = 10;
-	int arr[size];
+	const int size = 8000000;
+	//int arr[size];
+	int *arr = new int[size];
 
 	if (0)
 	{
@@ -75,28 +78,34 @@ int main()
 	{
 		cout << "-----------QuickSort-----------\n";
 		for (int i = 0; i < size; ++i)
-			arr[i] = rand() % 100;
-		printArray(arr, size);
+			arr[i] = rand();
+		//printArray(arr, size);
+		StopWatch watch;
 		QuickSort(arr, 0, size-1);
-		printArray(arr, size);
+		cout << "QuickSort cost " << watch.GetElapsedSeconds()  * 1000 << "ms \n";
+		//printArray(arr, size);
 	}
 	if (0)
 	{
 		cout << "-----------ShellSort-----------\n";
 		for (int i = 0; i < size; ++i)
 			arr[i] = rand() % 100;
-		printArray(arr, size);
+		//printArray(arr, size);
+		StopWatch watch;
 		ShellSort(arr, size);
-		printArray(arr, size);
+		cout << "ShellSort cost " << watch.GetElapsedSeconds() * 1000 << "ms \n";
+		//printArray(arr, size);
 	}
 	if (0)
 	{
 		cout << "-----------ExchangeSort-----------\n";
 		for (int i = 0; i < size; ++i)
 			arr[i] = rand() % 100;
-		printArray(arr, size);
+		//printArray(arr, size);
+		StopWatch watch;
 		ExchangeSort(arr, size);
-		printArray(arr, size);
+		cout << "ExchangeSort cost " << watch.GetElapsedSeconds() * 1000 << "ms \n";
+		//printArray(arr, size);
 	}
 	if (0)
 	{
@@ -109,12 +118,21 @@ int main()
 	}
 	if (1)
 	{
-		cout << "-----------CountSort-----------\n";
+		cout << "-----------HeapSort-----------\n";
 		for (int i = 0; i < size; ++i)
 			arr[i] = rand() % 100;
-		printArray(arr, size);
+		//printArray(arr, size);
+		StopWatch watch;
 		HeapSort(arr, size);
-		printArray(arr, size);
+		cout << "HeapSort cost " << watch.GetElapsedSeconds() * 1000 << "ms \n";
+		//printArray(arr, size);
+	}
+	if (0)
+	{
+		cout << "-----------std::sort-----------\n";
+		StopWatch watch;
+		std::sort(arr, arr + size);
+		cout << "std::sort cost " << watch.GetElapsedSeconds() * 1000 << "ms \n";
 	}
 	system("pause");
 }
@@ -245,7 +263,7 @@ void ShellSort(int a[], int n)
 		t.push_back(jump);
 		jump = jump / 2;
 	}
-	for (int i = 0; i<t.size(); i++)
+	for (size_t i = 0; i<t.size(); i++)
 		ShellInsert(a, n, t[i]);
 }
 
