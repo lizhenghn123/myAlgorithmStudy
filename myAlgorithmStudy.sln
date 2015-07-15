@@ -167,6 +167,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Numberof1Bits", "leetcode\N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SortColors", "leetcode\SortColors\SortColors.vcxproj", "{EF1E90B7-E358-4246-88F6-2F425B94696E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimplifyPath", "leetcode\SimplifyPath\SimplifyPath.vcxproj", "{EDF55354-428F-4AD9-94A3-AF54D53C22C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -453,6 +455,10 @@ Global
 		{EF1E90B7-E358-4246-88F6-2F425B94696E}.Debug|Win32.Build.0 = Debug|Win32
 		{EF1E90B7-E358-4246-88F6-2F425B94696E}.Release|Win32.ActiveCfg = Release|Win32
 		{EF1E90B7-E358-4246-88F6-2F425B94696E}.Release|Win32.Build.0 = Release|Win32
+		{EDF55354-428F-4AD9-94A3-AF54D53C22C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDF55354-428F-4AD9-94A3-AF54D53C22C6}.Debug|Win32.Build.0 = Debug|Win32
+		{EDF55354-428F-4AD9-94A3-AF54D53C22C6}.Release|Win32.ActiveCfg = Release|Win32
+		{EDF55354-428F-4AD9-94A3-AF54D53C22C6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -530,5 +536,6 @@ Global
 		{C4636BDC-D905-4554-8286-5F66633BC174} = {6E2B00BA-D81E-498E-A917-C3EF2239441E}
 		{5368EF86-3406-4DC6-809A-CF7BF1E7375E} = {C4636BDC-D905-4554-8286-5F66633BC174}
 		{EF1E90B7-E358-4246-88F6-2F425B94696E} = {7AAF4B8E-42A1-4282-BF4D-997EA6B8EF1D}
+		{EDF55354-428F-4AD9-94A3-AF54D53C22C6} = {980CE8D2-6569-4335-A207-E486A10194B5}
 	EndGlobalSection
 EndGlobal
